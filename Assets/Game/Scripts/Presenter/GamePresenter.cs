@@ -201,8 +201,7 @@ namespace CriticalSpin.Presenter
                 // Rewards are only cleared inside Restart() if they decline or don't have enough currency.
 
                 bool canRevive = _gameConfig.reviveEnabled
-                    && _revivesUsed < _gameConfig.maxReviveCount
-                    && _currencyManager.HasEnough(_gameConfig.reviveCost);
+                    && _revivesUsed < _gameConfig.maxReviveCount;
 
                 _gameView.GetBombView().Configure(canRevive, _gameConfig.reviveCost, _currencyManager.GetCurrentCurrency());
                 _gameView.GetBombView().Show();

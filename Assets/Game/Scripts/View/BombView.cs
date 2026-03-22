@@ -102,17 +102,17 @@ namespace CriticalSpin.View
 
         public void Configure(bool showReviveButton, int reviveCost, int currency)
         {
-            bool canRevive = showReviveButton && currency >= reviveCost;
-
+            // Removed currency check so the button is always visible if they have rights left.
+            // (The Revive Popup will disable the true Accept button if they are broke).
             if (btn_revive != null)
             {
-                btn_revive.gameObject.SetActive(canRevive);
+                btn_revive.gameObject.SetActive(showReviveButton);
                 if (txt_btn_revive_cost != null)
                     txt_btn_revive_cost.text = $"<sprite=0>{reviveCost}\nREVIVE";
             }
 
             if (txt_bomb_description_value != null)
-                txt_bomb_description_value.text = canRevive ? _reviveAvailableText : _reviveUnavailableText;
+                txt_bomb_description_value.text = showReviveButton ? _reviveAvailableText : _reviveUnavailableText;
         }
 
         public Button GetRestartButton() => btn_restart;

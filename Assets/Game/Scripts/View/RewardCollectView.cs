@@ -109,6 +109,9 @@ namespace CriticalSpin.View
                     .SetLink(gameObject);
             }
 
+            // Start rotating immediately so it's already spinning while scaling up!
+            StartShineRotation();
+
             // Scale icon container from zero to full at screen center.
             if (rt_icon_container != null)
             {
@@ -119,7 +122,6 @@ namespace CriticalSpin.View
                     .OnComplete(() =>
                     {
                         if (canvasGroup != null) canvasGroup.interactable = true;
-                        StartShineRotation();
                     });
             }
         }
@@ -138,21 +140,16 @@ namespace CriticalSpin.View
 
             float duration = 360f / Mathf.Max(1f, _shineRotationSpeed);
 
-            DOTween.To(
-                () => tf_shine.localEulerAngles.z,
-                z  => tf_shine.localEulerAngles = new Vector3(0f, 0f, z),
-                360f,
-                duration
-            )
-            .SetEase(Ease.Linear)
-            .SetLoops(-1, LoopType.Restart)
-            .SetLink(gameObject);
+            // Using DOLocalRotate properly links tf_shine as the target for DOTween.Kill()
+            tf_shine.DOLocalRotate(new Vector3(0f, 0f, -360f), duration, RotateMode.FastBeyond360)
+                .SetEase(Ease.Linear)
+                .SetLoops(-1, LoopType.Restart)
+                .SetLink(tf_shine.gameObject);
         }
 
         private void AnimateClose()
         {
             if (canvasGroup != null) canvasGroup.interactable = false;
-            if (tf_shine    != null) DOTween.Kill(tf_shine);
 
             Sequence seq = DOTween.Sequence().SetLink(gameObject);
 
@@ -177,6 +174,7 @@ namespace CriticalSpin.View
 
             seq.OnComplete(() =>
             {
+                if (tf_shine != null) DOTween.Kill(tf_shine); // Kill the spin ONLY when fully closed
                 gameObject.SetActive(false);
                 _onCollectConfirmed?.Invoke();
                 _onCollectConfirmed = null;

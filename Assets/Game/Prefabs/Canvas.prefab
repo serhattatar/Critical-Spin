@@ -979,7 +979,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.8478519}
   m_AnchorMax: {x: 1, y: 0.8478519}
-  m_AnchoredPosition: {x: -72.744995, y: -171.79999}
+  m_AnchoredPosition: {x: -72.74463, y: -171.79993}
   m_SizeDelta: {x: 258.5968, y: 279.4708}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &4143770320225296072
@@ -2223,7 +2223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -29.635681, y: -148}
+  m_AnchoredPosition: {x: -29.635254, y: -148}
   m_SizeDelta: {x: -214.0374, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &4465944906388196280
@@ -5257,7 +5257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 61.55005, y: -36.484924}
+  m_AnchoredPosition: {x: 61.550293, y: -36.485107}
   m_SizeDelta: {x: 446.52, y: -497.5701}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &4465944907419084193
@@ -7324,6 +7324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prefab_WheelSlice (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7108915582212031716, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.5391998
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
 --- !u!224 &1827163198244062104 stripped
@@ -7444,6 +7448,10 @@ PrefabInstance:
     - target: {fileID: 5429756872455639896, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
       propertyPath: m_Name
       value: Prefab_WheelSlice (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108915582212031716, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.5391998
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
@@ -7566,6 +7574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prefab_WheelSlice (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7108915582212031716, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.5391998
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
 --- !u!224 &1701529238648012860 stripped
@@ -7686,6 +7698,10 @@ PrefabInstance:
     - target: {fileID: 5429756872455639896, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
       propertyPath: m_Name
       value: Prefab_WheelSlice (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108915582212031716, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.5391998
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
@@ -7808,6 +7824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prefab_WheelSlice (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7108915582212031716, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.5391998
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
 --- !u!114 &2027463805367851654 stripped
@@ -7928,6 +7948,10 @@ PrefabInstance:
     - target: {fileID: 5429756872455639896, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
       propertyPath: m_Name
       value: Prefab_WheelSlice (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108915582212031716, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.5391998
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
@@ -8050,6 +8074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prefab_WheelSlice (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7108915582212031716, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.5391998
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
 --- !u!114 &3353026480995046945 stripped
@@ -8170,6 +8198,10 @@ PrefabInstance:
     - target: {fileID: 5429756872455639896, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
       propertyPath: m_Name
       value: Prefab_WheelSlice (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108915582212031716, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.5391998
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c6a2d12b7c8917438f8592574625ac8, type: 3}
