@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9095998987712601518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ca21d34b01fbb4d88505022012b72e, type: 3}
+  m_Name: Slice_03
+  m_EditorClassIdentifier: 
+  isBomb: 0
+  reward: {fileID: 11400000, guid: 2e48695571c4a134c81e8511a544a6f4, type: 2}
+  weight: 66.62009
+  sliceColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &-5231639917234161456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ca21d34b01fbb4d88505022012b72e, type: 3}
+  m_Name: Slice_00
+  m_EditorClassIdentifier: 
+  isBomb: 1
+  reward: {fileID: 11400000, guid: 04feb001a193ac7439aec491a103fca1, type: 2}
+  weight: 20
+  sliceColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &-4437522989320959174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ca21d34b01fbb4d88505022012b72e, type: 3}
+  m_Name: Slice_02
+  m_EditorClassIdentifier: 
+  isBomb: 0
+  reward: {fileID: 11400000, guid: fae9ee3e5ba815a4298ca12402560a49, type: 2}
+  weight: 82.77539
+  sliceColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &-3938541352868079870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ca21d34b01fbb4d88505022012b72e, type: 3}
+  m_Name: Slice_04
+  m_EditorClassIdentifier: 
+  isBomb: 0
+  reward: {fileID: 11400000, guid: fae9ee3e5ba815a4298ca12402560a49, type: 2}
+  weight: 86.277725
+  sliceColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb07a653093a244cb2b9698064ad3d6, type: 3}
+  m_Name: Zone_13_Bronze
+  m_EditorClassIdentifier: 
+  zoneIndex: 13
+  spinType: 0
+  slices:
+  - {fileID: -5231639917234161456}
+  - {fileID: 7394410863977195057}
+  - {fileID: -4437522989320959174}
+  - {fileID: -9095998987712601518}
+  - {fileID: -3938541352868079870}
+  - {fileID: 1020370403671209333}
+  - {fileID: 1057547100625989315}
+  - {fileID: 438947161468333852}
+--- !u!114 &438947161468333852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ca21d34b01fbb4d88505022012b72e, type: 3}
+  m_Name: Slice_07
+  m_EditorClassIdentifier: 
+  isBomb: 0
+  reward: {fileID: 11400000, guid: c1e0f4b9049523548a32ca83130aee54, type: 2}
+  weight: 78.17124
+  sliceColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1020370403671209333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ca21d34b01fbb4d88505022012b72e, type: 3}
+  m_Name: Slice_05
+  m_EditorClassIdentifier: 
+  isBomb: 0
+  reward: {fileID: 11400000, guid: d720d25dd6cc4c541971218791485cb9, type: 2}
+  weight: 96.69895
+  sliceColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1057547100625989315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ca21d34b01fbb4d88505022012b72e, type: 3}
+  m_Name: Slice_06
+  m_EditorClassIdentifier: 
+  isBomb: 0
+  reward: {fileID: 11400000, guid: a7d440d1774573540bd624f1f7ab32df, type: 2}
+  weight: 79.87544
+  sliceColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &7394410863977195057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ca21d34b01fbb4d88505022012b72e, type: 3}
+  m_Name: Slice_01
+  m_EditorClassIdentifier: 
+  isBomb: 0
+  reward: {fileID: 11400000, guid: d3171b915b9fe4c46ae9b80a73cb9c63, type: 2}
+  weight: 93.0293
+  sliceColor: {r: 1, g: 1, b: 1, a: 1}

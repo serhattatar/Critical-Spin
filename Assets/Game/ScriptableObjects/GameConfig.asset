@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630469445b31d8b489aad0f16bc437e2, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  safeZoneInterval: 5
+  superZoneInterval: 30
+  reviveEnabled: 1
+  reviveCost: 50
+  maxReviveCount: 3
+  startingCurrency: 100
+  minSpinDuration: 3
+  maxSpinDuration: 5
+  extraFullRotations: 5
+  totalZoneCount: 60

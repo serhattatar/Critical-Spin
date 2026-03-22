@@ -1,0 +1,4 @@
+repository "Critical Spin/Critical Spin@18966956934684@cloud"
+  path "/"
+    br "/main"
+    co "/main"
